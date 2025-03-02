@@ -1,0 +1,130 @@
+html{
+  background-color: #C6D8D3;  
+}
+
+.heading {
+margin-top: 5.5%;
+margin-bottom: -45px;
+font-size: 50px;
+text-align: center;
+color: #1e2e38;
+background-color: #C6D8D3;
+font-family: 'DynaPuff', serif;
+}
+
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1e2e38;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    font-family: 'Neucha', cursive;
+  }
+  
+  .linavbar {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 150%;
+    font-family: 'DynaPuff', serif;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #1e2e38;
+    color: #4c9aad;
+  }
+
+  #mainPhoto{
+    display: block;
+    border-radius: 50px;
+    border: 10px solid #4c9aad;
+  }
+
+  .flex-item-left {
+    flex: 60%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .flex-item-right {
+    flex: 40%;
+    justify-content: center;
+  }
+
+  #homeDesc{
+    text-align: left;
+    padding: 2% 4% 2% 0;
+    margin-right: 35px;
+    word-wrap: break-word;
+    flex-wrap: wrap;
+    font-family: 'Funnel Display', serif;
+    font-size: 1.66em;
+  }
+
+  .flex-item-left img {
+    width: 75%; 
+    max-width: 100%; 
+}
+
+  .flex-container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    width: 100%
+  }
+
+  #learn{
+    display: inline-block;
+    border-radius: 30px;
+    background-color: #4c9aad;
+    border: none;
+    color:  #1e2e38;
+    font-family: 'Funnel Display', serif;
+    text-align: center;
+    font-size: 1.66em;
+    padding: 15px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  #learn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  #learn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  #learn:hover span {
+    padding-right: 25px;
+  }
+  
+  #learn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+   
