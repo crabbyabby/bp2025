@@ -2,10 +2,10 @@ html{
   background-color: #C6D8D3;  
 }
 
-.heading {
+.heading{
 margin-top: 5.5%;
 margin-bottom: -45px;
-font-size: 50px;
+font-size: 51px;
 text-align: center;
 color: #1e2e38;
 background-color: #C6D8D3;
@@ -23,7 +23,6 @@ font-family: 'DynaPuff', serif;
     top: 0%;
     left: 0%;
     width: 100%;
-    font-family: 'Neucha', cursive;
   }
   
   .linavbar {
@@ -127,4 +126,56 @@ font-family: 'DynaPuff', serif;
     right: 0;
   }
 
-   
+  #paragraph{
+    border: 10px solid #4c9aad;
+    border-radius: 30px;
+    margin: 0 5% 0 5%;
+    padding: 10px;
+    font-family: 'Funnel Display', serif;
+    size: 20px;
+    text-align: center;
+    line-height: 1.4;
+  } 
+  
+  h3{
+    font-family: 'Funnel Display', serif;
+    size: 1.33em;
+    margin: 0 5% 0 5%;
+  }
+
+  .flex-container2{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    width: 90%;
+    margin: 0 5% 0 5%;
+    gap: 2%;
+  }
+
+  .flex-item-left2{
+    flex: 49%;
+    display: flex;
+    flex-direction: column;
+    border: 10px solid #4c9aad;
+    border-radius: 30px;
+  }
+  .flex-item-right2{
+    flex: 49%;
+    display: flex;
+    flex-direction: column;
+    border: 10px solid #4c9aad;
+    border-radius: 30px;}
+
+.center{
+  text-align: center;
+  font-size: 2em;
+  margin: 3% 0 3% 0;
+}
+
+p{
+  font-family: 'Funnel Display', serif;
+  font-size: 1.66em;
+  margin: 1% 5% 1% 5%;
+}
