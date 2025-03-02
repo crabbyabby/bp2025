@@ -279,4 +279,70 @@ h5{
   color:  #1e2e38;
   text-align: center;
   margin: 1%;
+
+}
+
+label{
+  font-size: 1.33em;
+  font-family: 'Funnel Display', serif;
+  color:  #1e2e38;
+  margin-left: 5%;
+}
+
+textarea{
+  margin-left:  5%;
+  margin-right:  5%;
+  font-size: 1.33em;
+  font-family: 'Funnel Display', serif;
+  color:  #1e2e38;
+  width: 90%;
+  border-radius: 10px;
+  resize: none;
+}
+
+input{
+  margin: 0 0 0 5%;
+  width: 90%;
+  height: 100px;
+}
+
+.submit{
+  display: inline-block;
+  border-radius: 30px;
+  background-color: #4c9aad;
+  border: none;
+  color:  #1e2e38;
+  font-family: 'Funnel Display', serif;
+  text-align: center;
+  font-size: 1.66em;
+  padding: 15px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 4% 46% 4% 40%;
+}
+
+.submit span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.submit span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.submit:hover span {
+  padding-right: 25px;
+}
+
+.submit:hover span:after {
+  opacity: 1;
+  right: 0;
 }
