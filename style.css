@@ -144,7 +144,7 @@ font-family: 'DynaPuff', serif;
   }
 
   .flex-container2{
-    align-items: center;
+    align-items: flex-start;
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
@@ -158,24 +158,125 @@ font-family: 'DynaPuff', serif;
     flex: 49%;
     display: flex;
     flex-direction: column;
-    border: 10px solid #4c9aad;
+    border: 10px solid #1e2e38;
     border-radius: 30px;
+    background-color: #4c9aad;
   }
   .flex-item-right2{
     flex: 49%;
     display: flex;
     flex-direction: column;
-    border: 10px solid #4c9aad;
-    border-radius: 30px;}
+    border: 10px solid #1e2e38; 
+    border-radius: 30px;
+    background-color: #4c9aad;
+  }
 
 .center{
   text-align: center;
   font-size: 2em;
-  margin: 3% 0 3% 0;
+  margin: 2.5% 0 1% 0;
+  font-family: 'DynaPuff', serif;
+  color: #1e2e38;
+}
+
+.photos{
+  margin: 10px;
+  padding: 4px;
+  float: left;
 }
 
 p{
   font-family: 'Funnel Display', serif;
   font-size: 1.66em;
   margin: 1% 5% 1% 5%;
+}
+
+#gappy{
+  margin-bottom: 16.7%;
+}
+
+h3{
+  font-size: 2em;
+  font-family: 'Funnel Display', serif;
+}
+
+.textLeft{
+  flex: 64%;
+  width:64%;
+  display: flex;
+  flex-direction: column;
+}
+
+.imageRight{
+  flex: 25%;
+  width: 22%;
+  display: flex;
+  flex-direction: row;
+  margin: 5% 1% 11.5% 1%;
+}
+
+.phead{
+  font-family: 'DynaPuff', serif;
+
+}
+
+.imageRight img{
+  width: 90%;
+}
+
+.horizontal{
+  flex-direction: row;
+  width: 100%;
+  display: flex;
+  flex: 100%;
+}
+
+.flex-container3{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  max-width: 100%;
+  width: 100%;
+  gap: 2%;
+}
+
+.testimonialLeft{
+  flex: 25%;
+  width: 25%;
+  border: 10px double #1e2e38; 
+  background-color: #4c9aad;
+  border-radius: 30px;
+  padding: 1% 2% 1% 2%;
+}
+
+.testimonialCenter{
+  flex: 25%;
+  width: 25%;
+  border: 10px double #1e2e38; 
+  background-color: #4c9aad;
+  border-radius: 30px;
+  padding: 1% 2% 1% 2%;
+}
+
+.testimonialRight{
+  flex: 25%;
+  width: 25%;
+  border: 10px double #1e2e38; 
+  background-color: #4c9aad;
+  border-radius: 30px;
+  padding: 1% 2% 1% 2%;
+}
+h4{
+  font-size: 1.33em;
+  font-family: 'Funnel Display', serif;
+  color:  #1e2e38;
+}
+
+h5{
+  font-size: 3em;
+  font-family: 'DynaPuff', serif;
+  color:  #1e2e38;
+  text-align: center;
+  margin: 1%;
 }
